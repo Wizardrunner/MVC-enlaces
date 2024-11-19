@@ -1,7 +1,13 @@
-<?php include 'header.php'; ?>
-
 <div class="container mt-5">
     <h1 class="text-center">Buscar en Enlaces</h1>
+
+        <!-- Mostrar mensaje de error si existe -->
+        <?php if (!empty($error)): ?>
+        <div class="alert alert-danger text-center mt-3">
+            <?= htmlspecialchars($error); ?>
+        </div>
+        <?php endif; ?>
+
     <form id="searchForm" action="?controller=Preguntas&action=buscar" method="POST" class="mt-4">
         <div class="form-group">
             <label for="query">Consulta</label>
@@ -49,5 +55,3 @@
         <button type="submit" class="btn btn-primary mt-3">Buscar</button>
     </form>
 </div>
-
-<?php include 'footer.php'; ?>

@@ -28,6 +28,9 @@ Este proyecto es una aplicación sencilla de gestión de enlaces utilizando un p
   - 💻 **Por Lenguajes de Programación**
   - 📝 **Por palabras en los títulos**
 - **Vista Dinámica**: Integrada con Bootstrap para un diseño limpio y adaptable.
+- **Estructura Mejorada**:
+  - `Autoload.php` para la carga automática de clases.
+  - `ViewController.php` para la gestión centralizada de vistas.
 - **Fácil Configuración**: Listo para usar con XAMPP o cualquier servidor PHP local.
 
 ---
@@ -39,6 +42,8 @@ Este proyecto es una aplicación sencilla de gestión de enlaces utilizando un p
 ├── /assets
 │   └── styles.css            # Estilos personalizados
 ├── /controllers
+│   ├── Autoload.php          # Carga automática de clases
+│   ├── ViewController.php    # Gestión centralizada de vistas
 │   ├── Router.php            # Sistema de enrutamiento
 │   └── PreguntasController.php # Controlador para búsquedas
 ├── /models
@@ -79,20 +84,26 @@ php -S localhost:8000
 Accede a la aplicación en: http://localhost:8000.
 
 ## 🧑‍💻 Cómo Funciona
-Formulario de Búsqueda
-Elige un filtro (Categoría, Lenguaje de Programación o Título).
-Ingresa tu término de búsqueda.
-Haz clic en Buscar y observa los resultados.
-Ejemplo:
-Filtro: Lenguaje de Programación
-Búsqueda: PHP
-Resultados: Muestra los enlaces asociados a categorías del tipo LENGUAJE que coincidan con "PHP".
+
+### Formulario de Búsqueda
+1. Elige un filtro (Categoría, Lenguaje de Programación o Título).
+2. Ingresa tu término de búsqueda.
+3. Haz clic en **Buscar** y observa los resultados.
+
+### Ejemplo
+- **Filtro:** Lenguaje de Programación
+- **Búsqueda:** PHP
+- **Resultados:** Muestra los enlaces asociados a categorías del tipo `LENGUAJE` que coincidan con "PHP".
+
+---
 
 ## 🌟 Tecnologías Utilizadas
-PHP: Backend y lógica de negocio.
-MySQL: Base de datos para almacenar categorías y enlaces.
-Bootstrap 5: Para un diseño moderno y adaptable.
-MVC: Estructura clara y escalable.
+
+- **PHP**: Backend y lógica de negocio.
+- **MySQL**: Base de datos para almacenar categorías y enlaces.
+- **Bootstrap 5**: Para un diseño moderno y adaptable.
+- **MVC**: Estructura clara y escalable.
+
 ## 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Por favor, crea un fork de este repositorio y abre un pull request con tus mejoras.
 

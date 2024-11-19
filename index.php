@@ -1,5 +1,5 @@
 <?php
-require_once './controllers/Router.php';
+require_once './controllers/Autoload.php';
 
 $router = new Router();
 $router->run();
