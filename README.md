@@ -37,7 +37,7 @@ Este proyecto es una aplicación sencilla de gestión de enlaces utilizando un p
 │   ├── header.php            # Encabezado (Navbar)
 │   └── footer.php            # Pie de página
 └── index.php                 # Punto de entrada principal
-
+```
 ---
 
 ## 🛠️ Configuración y Uso
@@ -50,17 +50,18 @@ Crea una base de datos llamada enlaces en tu servidor MySQL.
 Importa el archivo crear_vista.sql para configurar las tablas y la vista.
 ### 3️⃣ Configurar el Proyecto
 Asegúrate de que los datos de conexión en ModelBBDD.php sean correctos:
-
+```
 ```php
 private $host = 'localhost';
 private $dbname = 'enlaces';
 private $user = 'root';
 private $password = '';
+```
 ### 4️⃣ Iniciar el Servidor
 Utiliza PHP para iniciar el servidor local:
 ```php
 php -S localhost:8000
-
+```
 Accede a la aplicación en: http://localhost:8000.
 
 ## 🧑‍💻 Cómo Funciona
