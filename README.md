@@ -45,12 +45,14 @@ Este proyecto es una aplicación sencilla de gestión de enlaces utilizando un p
 ```bash
 git clone https://github.com/Wizardrunner/MVC-enlaces.git
 cd MVC-enlaces
+```
 ### 2️⃣ Configurar la Base de Datos
 Crea una base de datos llamada enlaces en tu servidor MySQL.
 Importa el archivo crear_vista.sql para configurar las tablas y la vista.
+
 ### 3️⃣ Configurar el Proyecto
 Asegúrate de que los datos de conexión en ModelBBDD.php sean correctos:
-```
+
 ```php
 private $host = 'localhost';
 private $dbname = 'enlaces';
