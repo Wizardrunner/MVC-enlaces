@@ -22,7 +22,7 @@
                         <a class="nav-link active" href="?controller=Preguntas&action=index">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/Wizardrunner/MVC-documentation" target="_blank">Documentación</a>
+                        <a class="nav-link" href="https://wizardrunner.github.io/MVC-documentation/" target="_blank">Documentación</a>
                     </li>
                 </ul>
             </div>
