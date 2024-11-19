@@ -37,6 +37,9 @@ Este proyecto es una aplicación sencilla de gestión de enlaces utilizando un p
 │   ├── header.php            # Encabezado (Navbar)
 │   └── footer.php            # Pie de página
 └── index.php                 # Punto de entrada principal
+
+---
+
 ## 🛠️ Configuración y Uso
 ### 1️⃣ Clonar el Repositorio
 ```bash
