@@ -5,6 +5,18 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-orange?logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
+---
+
+## ℹ️ Información del Proyecto
+
+- **Autor:** Wizardrunner
+- **Fecha de Creación:** 19 de noviembre de 2024
+- **Versión:** 1.0.0
+
+---
+
+## 📝 Descripción
+
 Este proyecto es una aplicación sencilla de gestión de enlaces utilizando un patrón **MVC (Modelo-Vista-Controlador)**. Permite realizar búsquedas en una base de datos MySQL basada en categorías, lenguajes de programación y palabras clave en los títulos de los enlaces.
 
 ---
